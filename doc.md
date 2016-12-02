@@ -70,13 +70,33 @@ Because, the [nisheetjain/vscode-emacs](https://github.com/nisheetjain/vscode-em
 
 ## FUDs Buster
 
-- FUD: Become cannot to input an asterisk symbol with VSCodeVim/Vim.
+---
 
-- Ans: I didn't encounter such bug with VSCodeVim/Vim v0.4.1. I think it was fixed.
+### FUD 
 
-- FUD: VSCode often encounters to sudden-death.
+Become cannot to input `"*"` with VSCodeVim/Vim.
 
-- Ans: I use VSCode since version 1.0. But I never saw that VSCode is encountered to sudden-death to today.
+---
+
+### Answer 
+
+I never encountered such bug with VSCodeVim/Vim v0.4.1. 
+
+I think it was fixed.
+
+---
+
+### FUD
+
+VSCode often encounters to sudden-death.
+
+---
+
+### Answer 
+
+I use VSCode since version 1.0.x. 
+
+But I never saw that VSCode is encountered to sudden-death to today.
 
 ---
 
@@ -84,9 +104,19 @@ Because, the [nisheetjain/vscode-emacs](https://github.com/nisheetjain/vscode-em
 
 ---
 
-## Bring Your Wanted Terminal
+## Bring Your Needed Terminal
 
-* Edit .vscode/setting.json
+---
+
+You can launch default terminal (ex. `Terminal.app`) on the VSCode with hotkey `Ctrl+｀`  
+
+---
+
+But, we want that VSCode is been customised as we like.
+
+---
+
+Edit `.vscode/setting.json`
 
 ```
 {
@@ -103,13 +133,17 @@ Because, the [nisheetjain/vscode-emacs](https://github.com/nisheetjain/vscode-em
 }
 ```
 
-* Then, `Ctrl+｀` to launch your wanted terminal in VSCode.
+---
+
+Then, `Ctrl+｀` to launch your wanted terminal on the VSCode.
 
 ---
 
-## Run "prove" with hotkey
+## Run `prove` with hotkey
 
-* Create build.sh
+---
+
+Create `build.sh`
 
 ```
 #!/bin/sh
@@ -118,7 +152,9 @@ cpanm --installdeps .
 prove -Ilib t/
 ```
 
-* Edit .vscode/tasks.json
+---
+
+Edit `.vscode/tasks.json`
 
 ```
 {
@@ -139,15 +175,38 @@ prove -Ilib t/
 }
 ```
 
+---
 
-* Then, `Cmd+Shift+B` to launch build.sh in VSCode.
+Then, `Cmd+Shift+B` to launch `build.sh` in VSCode.
 
 ---
 
-## Use Debugger
-
-It's so difficult, but, we can install [`Perl Debug`](https://github.com/raix/vscode-perl-debug) Extension ...
+## Debugger
 
 ---
 
-## 
+We can install [`Perl Debug`](https://github.com/raix/vscode-perl-debug) Extension. :)
+
+---
+
+## And more technics
+
+---
+
+with demo...
+
+---
+
+## Appendix 
+
+Write a presentation and show it with VSCode
+
+---
+
+## Use [vscode-reveal](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)
+
+---
+
+# Happy Hacking 
+# with VSCode!
+
