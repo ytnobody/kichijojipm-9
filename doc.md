@@ -30,10 +30,21 @@ Visual Studio Code
 
 [http://code.visualstudio.com/](http://code.visualstudio.com/)
 
-* From Microsoft Corp.
-* Version 1.7 is the newest. (in 2016-11-15)
-* [The source code is available under the MIT license agreement.](http://code.visualstudio.com/License)
-* Is not a full-stack IDE. A code editor that integrated with the tarminal.
+---
+
+From Microsoft Corp.
+
+---
+
+Version 1.7 is the newest. (in 2016-11-15)
+
+---
+
+[The source code is available under the MIT license agreement.](http://code.visualstudio.com/License)
+
+---
+
+Is not a full-stack IDE. A code editor that integrated with the tarminal.
 
 ---
 
